@@ -1,0 +1,26 @@
+{
+  "name": "clovishigh2001.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./tailwind.css -o ./main.css --minify",
+    "watch:css": "tailwindcss -i ./tailwind.css -o ./main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clovishigh2001/clovishigh2001.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clovishigh2001/clovishigh2001.github.io/issues"
+  },
+  "homepage": "https://github.com/clovishigh2001/clovishigh2001.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "daisyui": "5.7.28",
+    "tailwindcss": "4.3.3"
+  }
+}
